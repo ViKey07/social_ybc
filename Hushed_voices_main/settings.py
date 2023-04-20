@@ -33,7 +33,12 @@ ALLOWED_HOSTS = ['*']
 X_FRAME_OPTIONS = '*'
 CORS_ALLOW_ALL_ORIGINS = True
 CSRF_TRUSTED_ORIGINS = [
-  'http://127.0.0.1:8000/', 'http://0.0.0:3000']
+  'http://127.0.0.1:8000/', 
+  'http://0.0.0:3000', 
+  'https://socialybc.vikey07.repl.co', 
+  'http://socialybc.vikey07.repl.co/accounts/register/', 
+  'http://f3188b98-3c5b-474e-8f15-706076f62e03.id.repl.co/accounts/register/'
+  ]
 
 
 # Application definition
